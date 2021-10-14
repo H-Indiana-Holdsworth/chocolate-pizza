@@ -99,3 +99,16 @@ a {
 .meta {
     margin-top: 0;
 }
+
+.pizza-img {
+    margin-bottom: 15px;
+}
+
+.paragraph {
+    font-family: 'Scheherazade New', serif; 
+    line-height: 1.5;
+    color: grey;
+    font-size: 25px;
+    text-indent: 50px;
+}
+
