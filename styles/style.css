@@ -73,7 +73,7 @@ main {
     align-self: center;
     justify-self: center;
     width: 80%;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .chocolate-pizza {
@@ -101,15 +101,19 @@ a {
     margin-top: 0;
 }
 
+.printer-icon {
+    height: 8px;
+}
+
 .pizza-img {
     margin-bottom: 15px;
 }
 
 .paragraph {
-    font-family: 'Scheherazade New', serif;
+    font-family: 'Scope One', serif;
     line-height: 1.25;
     color: grey;
-    font-size: 20px;
+    font-size: 15px;
     text-indent: 50px;
 }
 
@@ -118,16 +122,21 @@ a {
     font-family: 'Mali', cursive;
     background-image: url('../assets/list-bg.png');
     background-size: cover;
-    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-bottom: 25px;
 }
 
 .ingredients {
     display: flex;
     justify-content: space-between;
     line-height: 2;
-    margin-top: 35px;
+    margin-top: 38px;
     margin-left: 50px;
     margin-right: 50px;
+}
+
+input[type='checkbox'] {
+    background-color: red;
 }
 
 .strikethrough {
@@ -139,17 +148,18 @@ li {
 }
 
 .bio {
-    font-family: 'Scheherazade New', serif;
+    font-family: 'Scope One', serif;
     display: flex;
     align-self: center;
     width: 80%;
-    margin-bottom: 75px;
+    margin-bottom: 65px;
 }
 
 .van-info {
     width: 75%;
     display: flex;
     align-items: center;
+    color: gray;
 }
 
 .van-pic {
@@ -161,15 +171,17 @@ li {
     font-weight: bold;
     font-size: 20px;
     margin: 0;
+    color: rgb(63, 61, 61);
 }
 
 .van-bio {
     margin: 0;
     line-height: 1.25;
+    font-size: 15px;
 }
 
 .share-recipe {
-    height: 30px;
+    height: 40px;
     padding: 10px 30px 10px 30px;
     border: none;
     background-color: #bd7058;
@@ -190,22 +202,25 @@ footer {
 
 .rule {
     display: flex;
+    align-items: center;
     width: 100%;
     margin-bottom: 30px;
 }
 
 hr {
     color: grey;
-    width: 40%;
+    width: 45%;
     height: 1px;
 }
 
 .footer-info {
+    font-family: 'Scope One', serif;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
     color: grey;
+    font-size: 12px;
     margin-bottom: 30px;
 }
 
