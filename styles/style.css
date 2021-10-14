@@ -64,7 +64,7 @@ header {
     background-repeat: repeat;
     align-self: center;
     height: 10px;
-    width: 80%;
+    width: 100%;
 }
 
 main {
@@ -116,6 +116,8 @@ a {
     height: 305px;
     font-family: 'Mali', cursive;
     background-image: url('../assets/list-bg.png');
+    background-size: cover;
+    margin-bottom: 30px;
 }
 
 .ingredients {
