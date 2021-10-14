@@ -73,6 +73,7 @@ main {
     align-self: center;
     justify-self: center;
     width: 80%;
+    margin-bottom: 10px;
 }
 
 .chocolate-pizza {
@@ -117,7 +118,7 @@ a {
     font-family: 'Mali', cursive;
     background-image: url('../assets/list-bg.png');
     background-size: cover;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 
 .ingredients {
@@ -138,20 +139,41 @@ li {
 }
 
 .bio {
+    font-family: 'Scheherazade New', serif;
     display: flex;
     align-self: center;
-    align-items: center;
-    justify-content: space-between;
     width: 80%;
-    height: 50px;
 }
 
 .van-info {
-    font-family: 'Scheherazade New', serif;
+    width: 75%;
     display: flex;
+    align-items: center;
+}
+
+.van-pic {
+    height: 60px;
+    margin: 0 15px 0 0;
 }
 
 .van-name {
     font-weight: bold;
-    font-size: 30px;
+    font-size: 20px;
+    margin: 0;
+}
+
+.van-bio {
+    margin: 0;
+    line-height: 1.25;
+}
+
+.share-recipe {
+    height: 30px;
+    padding: 10px 30px 10px 30px;
+    border: none;
+    background-color: #bd7058;
+    color: white;
+    font-family: 'Barlow', sans-serif;
+    text-transform: uppercase;
+    align-self: center;
 }
