@@ -1,75 +1,264 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <!-- Fonts -->
+        <link
+            href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Barlow:wght@100&family=Pacifico&family=Scheherazade+New&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Mali:wght@300&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Scope+One&display=swap"
+            rel="stylesheet"
+        />
+        <!-- Stylesheets -->
+        <link rel="stylesheet" href="./styles/reset.css" />
+        <link rel="stylesheet" href="./styles/style.css" />
+        <link rel="stylesheet" href="./styles/home.css" />
+        <title>Chocolate Pizza</title>
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
-    <!-- Stylesheets -->
-    <link rel="stylesheet" href="./styles/reset.css">
-    <link rel="stylesheet" href="./styles/style.css">
-    <link rel="stylesheet" href="./styles/home.css">
-    <title>Document</title>
-</head>
+    <body>
+        <header>
+            <div class="title">
+                <img
+                    src="assets/logo.png"
+                    alt="knife fork image"
+                    class="header-logo"
+                />
 
-<body>
-    <header>
-        <div class="gutter-right logo">
-            <img src="assets/big-logo.png" />
-        </div>
-    </header>
-    <main>
-        <section class="main-section">
-            <img class="main-logo" src="./assets/alchemy-logo.png" />
-            <h2>
-                Welcome to Alchemy Bootstrap!
-            </h2>
+                <div class="title-description">
+                    <p class="header-title">Delicious</p>
+                    <p class="header-description">
+                        THE BEST FOOD BLOG ON THE WEB
+                    </p>
+                </div>
+            </div>
 
-            <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam repellendus similique consectetur
-                voluptas facilis molestiae voluptates nobis error sapiente, ad, ipsa vero non, sint eligendi? Eos
-                praesentium iusto magnam exercitationem.
-                Earum sunt voluptatibus molestias, sint voluptatum quos reiciendis. Id asperiores deleniti dolores
-                provident, eius, nostrum aperiam vel, optio qui illo corrupti in. Eum quam, est nemo porro sapiente
-                excepturi assumenda.
-                Rerum unde quidem maxime. Ullam, dolores labore molestias voluptatibus adipisci quod? Quaerat nihil
-                inventore molestiae assumenda, voluptates vel necessitatibus eligendi? Accusamus ratione eligendi
-                reprehenderit? Beatae incidunt molestias ea soluta nulla.
-                Fugiat quae soluta voluptate mollitia praesentium modi ex illo, autem assumenda, vel aliquam fugit
-                possimus dolorem esse corporis ipsa! Voluptatem sapiente error non, ea optio suscipit quasi maxime nobis
-                ex?
-                Et ipsa tenetur ullam ab nesciunt quas fugit velit impedit illum esse eligendi corporis culpa
-                praesentium aspernatur ex sint veniam quidem, doloribus corrupti hic vitae. Eum neque ducimus omnis
-                exercitationem?
+            <div class="sm-icons">
+                <img
+                    src="./assets/fb-icon.png"
+                    alt="facebook icon"
+                    class="fb-icon"
+                />
+                <img
+                    src="./assets/twit-icon.png"
+                    alt="twitter icon"
+                    class="twit-icon"
+                />
+                <img
+                    src="./assets/gp-icon.png"
+                    alt="google plus icon"
+                    class="gp-icon"
+                />
+                <img
+                    src="./assets/insta-icon.png"
+                    alt="instagram icon"
+                    class="insta-icon"
+                />
+                <img
+                    src="./assets/flic-icon.png"
+                    alt="flicker icon"
+                    class="flic-icon"
+                />
+                <img
+                    src="./assets/pint-icon.png"
+                    alt="pinterest icon"
+                    class="pint-icon"
+                />
+                <div class="rss-email">
+                    <img
+                        src="./assets/rss-icon.png"
+                        alt="rss feed icon"
+                        class="rss-icon"
+                    />
+                    <img
+                        src="./assets/mail-icon.png"
+                        alt="email icon"
+                        class="mail-icon"
+                    />
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div class="hr"></div>
+            <h1 class="chocolate-pizza">Chocolate Pizza</h1>
+            <div class="blog-subhead">
+                <p class="meta">POSTED ON 15 DEC 2013 / DESSERTS</p>
+                <div class="printer-info">
+                    <img
+                        src="./assets/printer-icon.png"
+                        alt="printer icon"
+                        class="printer-icon"
+                    />
+                    <a href="#" class="print">PRINT</a>
+                </div>
+            </div>
+            <img
+                src="./assets/choco-pizza.png"
+                alt="chocolate pizza"
+                class="pizza-img"
+            />
+
+            <p class="paragraph">
+                Line a heavy large baking sheet with parchment paper. Roll out
+                the dough to a 9-inch-diameter round. Transfer the dough to the
+                prepared baking sheet. Using your fingers, make indentations all
+                over the dough. Brush the dough with butter, then bake until the
+                crust is crisp and pale golden brown, about 20 minutes.
             </p>
-            <hr />
-            <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam repellendus similique consectetur
-                voluptas facilis molestiae voluptates nobis error sapiente, ad, ipsa vero non, sint eligendi? Eos
-                praesentium iusto magnam exercitationem.
-                Earum sunt voluptatibus molestias, sint voluptatum quos reiciendis. Id asperiores deleniti dolores
-                provident, eius, nostrum aperiam vel, optio qui illo corrupti in. Eum quam, est nemo porro sapiente
-                excepturi assumenda.
-                Rerum unde quidem maxime. Ullam, dolores labore molestias voluptatibus adipisci quod? Quaerat nihil
-                inventore molestiae assumenda, voluptates vel necessitatibus eligendi? Accusamus ratione eligendi
-                reprehenderit? Beatae incidunt molestias ea soluta nulla.
-                Fugiat quae soluta voluptate mollitia praesentium modi ex illo, autem assumenda, vel aliquam fugit
-                possimus dolorem esse corporis ipsa! Voluptatem sapiente error non, ea optio suscipit quasi maxime nobis
-                ex?
-                Et ipsa tenetur ullam ab nesciunt quas fugit velit impedit illum esse eligendi corporis culpa
-                praesentium aspernatur ex sint veniam quidem, doloribus corrupti hic vitae. Eum neque ducimus omnis
-                exercitationem?
+            <p class="paragraph">
+                Line a heavy large baking sheet with parchment paper. Roll out
+                the dough to a 9-inch-diameter round. Transfer the dough to the
+                prepared baking sheet. Using your fingers, make indentations all
+                over the dough. Brush the dough with butter, then bake until the
+                crust is crisp and pale golden brown, about 20 minutes.
+            </p>
+            <p class="paragraph">
+                Line a heavy large baking sheet with parchment paper. Roll out
+                the dough to a 9-inch-diameter round. Transfer the dough to the
+                prepared baking sheet. Using your fingers, make indentations all
+                over the dough. Brush the dough with butter, then bake until the
+                crust is crisp and pale golden brown, about 20 minutes.
             </p>
 
+            <section class="recipe">
+                <div class="ingredients">
+                    <ul class="first">
+                        <li>
+                            <input type="checkbox" id="milk" />
+                            <label for="milk">1 1/2 cups milk</label>
+                        </li>
+
+                        <li>
+                            <input type="checkbox" id="mascarpone" />
+                            <label for="mascarpone">1/2 cup mascarpone</label>
+                        </li>
+
+                        <li>
+                            <input type="checkbox" id="pink salt" />
+                            <label for="pink salt">1/2 tsp pink salt</label>
+                        </li>
+
+                        <li>
+                            <input type="checkbox" id="figs" />
+                            <label for="figs">1 lb Black Mission figs</label>
+                        </li>
+
+                        <li>
+                            <input type="checkbox" id="sugar" />
+                            <label for="sugar">1/2 cup brown sugar</label>
+                        </li>
+
+                        <li>
+                            <input type="checkbox" id="water" />
+                            <label for="water">2 to 4 tbsp water</label>
+                        </li>
+                    </ul>
+
+                    <ul class="second">
+                        <li>
+                            <input type="checkbox" id="cream" />
+                            <label for="cream">1 1/2 cups heavy cream</label>
+                        </li>
+
+                        <li>
+                            <input type="checkbox" id="gransugar" checked />
+                            <label for="gransugar"
+                                ><span class="strikethrough"
+                                    >1/3 cup granulated sugar</span
+                                ></label
+                            >
+                        </li>
+
+                        <li>
+                            <input type="checkbox" id="eggyolk" checked />
+                            <label for="eggyolk"
+                                ><span class="strikethrough"
+                                    >2 egg yolks</span
+                                ></label
+                            >
+                        </li>
+
+                        <li>
+                            <input type="checkbox" id="lemon" />
+                            <label for="lemon">1 lemon, juiced</label>
+                        </li>
+
+                        <li>
+                            <input type="checkbox" id="butter" />
+                            <label for="butter">2 tbsp butter</label>
+                        </li>
+
+                        <li>
+                            <input type="checkbox" id="pecans" />
+                            <label for="pecans"
+                                >1 cup honey-roasted pecans, roughly
+                                chopped</label
+                            >
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <div class="hr"></div>
+        </main>
+
+        <section class="bio">
+            <div class="van-info">
+                <img
+                    src="./assets/van-pic.png"
+                    alt="picture of vanessa"
+                    class="van-pic"
+                />
+
+                <div class="name-bio">
+                    <p class="van-name">Vanessa Stevenson</p>
+                    <p class="van-bio">
+                        Food enthusiast, photography fan. Add a pinch of raw
+                        foodism and that's pretty much who I am.
+                    </p>
+                </div>
+            </div>
+
+            <button class="share-recipe">Share Recipe</button>
         </section>
-    </main>
-    <footer>
-        <div class="copy gutter-right">&copy; 2020 Alchemy Code Lab</div>
-    </footer>
 
-    <script type="module" src="./app.js"></script>
-</body>
+        <footer>
+            <div class="rule">
+                <hr />
+                <img src="./assets/small-logo.png" alt="small knife and fork" />
+                <hr />
+            </div>
+            <div class="footer-info">
+                <p>Delicious © 2013 • All Rights Reserved.</p>
+                <p>Proudly published with Ghost.</p>
+            </div>
+        </footer>
 
+        <script type="module" src="./app.js"></script>
+    </body>
 </html>
