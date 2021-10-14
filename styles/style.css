@@ -6,6 +6,7 @@ body {
     display: flex;
     flex-direction: column;
 }
+
 header {
     display: flex;
     align-self: center;
@@ -64,4 +65,37 @@ header {
     align-self: center;
     height: 10px;
     width: 80%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-self: center;
+    width: 80%;
+}
+
+.chocolate-pizza {
+    margin-bottom: 0;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+}
+
+.blog-subhead {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Barlow', sans-serif;
+    color: grey;
+    font-size: 10px;
+    margin-bottom: 15px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.meta {
+    margin-top: 0;
 }
