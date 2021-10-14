@@ -1,38 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <!-- Fonts -->
+        <link
+            href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap"
+            rel="stylesheet"
+        />
+        <!-- Stylesheets -->
+        <link rel="stylesheet" href="./styles/reset.css" />
+        <link rel="stylesheet" href="./styles/style.css" />
+        <link rel="stylesheet" href="./styles/home.css" />
+        <title>Document</title>
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
-    <!-- Stylesheets -->
-    <link rel="stylesheet" href="./styles/reset.css">
-    <link rel="stylesheet" href="./styles/style.css">
-    <link rel="stylesheet" href="./styles/home.css">
-    <title>Document</title>
-</head>
-
-<body>
-<!-- Header
+    <body>
+        <!-- Header
         logo
         blog name
         blog name description
         sm icons
         horizontal rule * -->
 
-<header>
-    <img src="assets/logo.png" alt="knife fork image">
+        <header>
+            <div class="title">
+                <img
+                    src="assets/logo.png"
+                    alt="knife fork image"
+                    class="header-logo"
+                />
 
-    <div class="title-description" >
-        <p class="header-title">Delicious</p>
-        <p class="header-description">THE BEST FOOD BLOG ON THE WEB</p>
-    </div>
+                <div class="title-description">
+                    <p class="header-title">Delicious</p>
+                    <p class="header-description">
+                        THE BEST FOOD BLOG ON THE WEB
+                    </p>
+                </div>
+            </div>
 
-</header>
+            <div class="sm-icons">
+                <img
+                    src="./assets/fb-icon.png"
+                    alt="facebook icon"
+                    class="fb-icon"
+                />
+                <img
+                    src="./assets/twit-icon.png"
+                    alt="twitter icon"
+                    class="twit-icon"
+                />
+                <img
+                    src="./assets/gp-icon.png"
+                    alt="google plus icon"
+                    class="gp-icon"
+                />
+                <img
+                    src="./assets/insta-icon.png"
+                    alt="instagram icon"
+                    class="insta-icon"
+                />
+                <img
+                    src="./assets/flic-icon.png"
+                    alt="flicker icon"
+                    class="flic-icon"
+                />
+                <img
+                    src="./assets/pint-icon.png"
+                    alt="pinterest icon"
+                    class="pint-icon"
+                />
+                <div class="rss-email">
+                    <img
+                        src="./assets/rss-icon.png"
+                        alt="rss feed icon"
+                        class="rss-icon"
+                    />
+                    <img
+                        src="./assets/mail-icon.png"
+                        alt="email icon"
+                        class="mail-icon"
+                    />
+                </div>
+            </div>
+        </header>
 
-<!-- Main
+        <!-- Main
         Blog title
         blog meta data
         print 
@@ -42,17 +96,16 @@
     
         recipe card-->
 
-<!-- Bio section
+        <!-- Bio section
         horizontal rule
         van-pic
         Name
         bio
         share recipe button -->
 
-<!-- Footer
+        <!-- Footer
         modified horizontal rule with small image in middle
         copyright info -->
-    <script type="module" src="./app.js"></script>
-</body>
-
+        <script type="module" src="./app.js"></script>
+    </body>
 </html>

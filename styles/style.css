@@ -1,1 +1,35 @@
+header {
+    display: flex;
+    justify-content: space-between;
+}
 
+.title {
+    display: flex;
+}
+
+.header-logo {
+    margin-right: 8px;
+}
+
+.title-description {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.header-title,
+.header-description {
+    margin: 0;
+}
+
+.sm-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+}
+
+.rss-email {
+    display: flex;
+    gap: 2px;
+}
