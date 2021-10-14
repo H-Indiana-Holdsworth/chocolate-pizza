@@ -2,16 +2,18 @@
 font-family: 'Pacifico', cursive;
 font-family: 'Scheherazade New', serif; */
 
-/* body {
+body {
     display: flex;
     flex-direction: column;
-} */
-
+}
 header {
     display: flex;
+    align-self: center;
     justify-content: space-between;
-    height: 55px;
-    margin: 20px;
+    height: 45px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 80%;
 }
 
 .title {
@@ -26,18 +28,20 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    height: 100%;
+    width: 100%;
     margin: 0;
 }
 
 .header-title {
     font-family: 'Pacifico', cursive;
-    font-size: 30px;
+    font-size: 25px;
     margin: 0;
 }
 
 .header-description {
     font-family: 'Barlow', sans-serif;
-    font-size: 1.2vh;
+    font-size: 10px;
     margin: 0;
 }
 
@@ -54,8 +58,10 @@ header {
     margin-left: 8px;
 }
 
-/* .hr-image {
-    background-image: url('./assets/hr-img.png');   
-    background-repeat: repeat-x;
-    height: 1px; 
-} */
+.hr {
+    background-image: url('../assets/hr-img.png');
+    background-repeat: repeat;
+    align-self: center;
+    height: 10px;
+    width: 80%;
+}
