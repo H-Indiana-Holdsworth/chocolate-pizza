@@ -1,6 +1,17 @@
+/* font-family: 'Barlow', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Scheherazade New', serif; */
+
+/* body {
+    display: flex;
+    flex-direction: column;
+} */
+
 header {
     display: flex;
     justify-content: space-between;
+    height: 55px;
+    margin: 20px;
 }
 
 .title {
@@ -14,11 +25,19 @@ header {
 .title-description {
     display: flex;
     flex-direction: column;
+    justify-content: flex-end;
     margin: 0;
 }
 
-.header-title,
+.header-title {
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    margin: 0;
+}
+
 .header-description {
+    font-family: 'Barlow', sans-serif;
+    font-size: 1.2vh;
     margin: 0;
 }
 
@@ -32,4 +51,11 @@ header {
 .rss-email {
     display: flex;
     gap: 2px;
+    margin-left: 8px;
 }
+
+/* .hr-image {
+    background-image: url('./assets/hr-img.png');   
+    background-repeat: repeat-x;
+    height: 1px; 
+} */
