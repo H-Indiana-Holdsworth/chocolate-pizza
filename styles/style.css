@@ -105,10 +105,36 @@ a {
 }
 
 .paragraph {
-    font-family: 'Scheherazade New', serif; 
-    line-height: 1.5;
+    font-family: 'Scheherazade New', serif;
+    line-height: 1.25;
     color: grey;
-    font-size: 25px;
+    font-size: 20px;
     text-indent: 50px;
 }
 
+.recipe {
+    height: 305px;
+    font-family: 'Mali', cursive;
+    background-image: url('../assets/list-bg.png');
+}
+
+.ingredients {
+    display: flex;
+    justify-content: space-between;
+    line-height: 2;
+    margin-top: 35px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.strikethrough {
+    text-decoration: line-through;
+}
+
+li {
+    list-style: none;
+}
+
+footer {
+    height: 100px;
+}
