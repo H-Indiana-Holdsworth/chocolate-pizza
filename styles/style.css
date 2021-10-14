@@ -137,6 +137,21 @@ li {
     list-style: none;
 }
 
-footer {
-    height: 100px;
+.bio {
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    height: 50px;
+}
+
+.van-info {
+    font-family: 'Scheherazade New', serif;
+    display: flex;
+}
+
+.van-name {
+    font-weight: bold;
+    font-size: 30px;
 }
